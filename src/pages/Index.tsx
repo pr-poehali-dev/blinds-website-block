@@ -44,6 +44,9 @@ const Index = () => {
                   <Icon name="Ruler" size={22} className="mr-2" />
                   Получить бесплатный замер
                 </Button>
+                <p className="mt-3 text-sm text-slate-400 font-medium">
+                  Без предоплаты. Замерщик приедет в удобное время.
+                </p>
               </div>
 
               <div className="mt-10 grid grid-cols-3 gap-3">

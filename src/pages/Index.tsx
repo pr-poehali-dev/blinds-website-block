@@ -54,15 +54,18 @@ const Index = () => {
                 </Button>
               </div>
 
-              <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4">
+              <div className="mt-10 grid grid-cols-3 gap-3">
                 {[
-                  { icon: 'Ruler', t: 'Бесплатный замер' },
-                  { icon: 'Clock', t: 'Монтаж за 1 день' },
-                  { icon: 'ShieldCheck', t: 'Гарантия 2 года' },
+                  { emoji: '🚗', t: 'Замер бесплатно' },
+                  { emoji: '⏱', t: 'Срок от 3 дней' },
+                  { emoji: '✅', t: 'Гарантия 1 год' },
                 ].map((item) => (
-                  <div key={item.t} className="flex items-center gap-2 text-slate-700 font-semibold">
-                    <Icon name={item.icon} size={20} className="text-emerald-600" />
-                    {item.t}
+                  <div
+                    key={item.t}
+                    className="flex flex-col items-center gap-2 text-center bg-slate-50 border border-slate-100 rounded-2xl px-3 py-4 hover:shadow-md hover:-translate-y-0.5 transition-all"
+                  >
+                    <span className="text-3xl">{item.emoji}</span>
+                    <span className="text-sm font-bold text-slate-700 leading-tight">{item.t}</span>
                   </div>
                 ))}
               </div>

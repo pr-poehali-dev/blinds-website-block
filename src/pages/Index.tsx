@@ -36,21 +36,13 @@ const Index = () => {
                 </span>
               </h2>
 
-              <div className="mt-8 flex flex-col sm:flex-row gap-3">
+              <div className="mt-8">
                 <Button
                   size="lg"
-                  className="text-base font-bold px-8 py-6 rounded-xl bg-slate-900 hover:bg-slate-800 shadow-lg hover:scale-[1.03] transition-transform"
+                  className="w-full sm:w-auto text-lg font-extrabold px-10 py-7 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-white shadow-[0_8px_32px_rgba(16,185,129,0.45)] hover:shadow-[0_12px_40px_rgba(16,185,129,0.6)] hover:scale-[1.04] transition-all duration-200"
                 >
-                  <Icon name="Ruler" size={20} className="mr-1" />
-                  Вызвать замерщика
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="text-base font-bold px-8 py-6 rounded-xl border-2 border-slate-200 hover:bg-slate-50"
-                >
-                  <Icon name="Phone" size={20} className="mr-1" />
-                  Позвонить нам
+                  <Icon name="Ruler" size={22} className="mr-2" />
+                  Получить бесплатный замер
                 </Button>
               </div>
 

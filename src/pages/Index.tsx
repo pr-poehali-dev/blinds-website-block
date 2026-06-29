@@ -457,6 +457,59 @@ const Index = () => {
 
         </div>
       </section>
+
+      {/* БЛОК 6: Финальный CTA */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto text-center">
+
+            <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+              Красивые окна —<br />ближе, чем вы думаете
+            </h2>
+            <p className="mt-5 text-base md:text-lg text-slate-500 font-medium leading-relaxed">
+              Оставьте заявку прямо сейчас — и уже завтра наш мастер<br className="hidden md:block" />
+              будет у вас с образцами тканей и рулеткой.<br />
+              <span className="font-bold text-slate-700">Бесплатно. Без обязательств. Без ожидания.</span>
+            </p>
+
+            <Button
+              size="lg"
+              className="mt-8 text-lg font-extrabold px-10 py-7 rounded-2xl bg-[#E85D04] hover:bg-[#d45203] text-white shadow-[0_8px_32px_rgba(232,93,4,0.4)] hover:shadow-[0_12px_40px_rgba(232,93,4,0.55)] hover:scale-[1.04] transition-all duration-200"
+            >
+              Вызвать замерщика бесплатно
+              <Icon name="ArrowRight" size={20} className="ml-2" />
+            </Button>
+
+            <div className="mt-10 flex flex-col items-center gap-4">
+              <a href="tel:+7XXXXXXXXXX" className="flex items-center gap-3 text-slate-700 font-bold hover:text-[#E85D04] transition-colors">
+                <span className="text-xl">📞</span>
+                <span>+7 (XXX) XXX-XX-XX</span>
+                <span className="text-sm font-medium text-slate-400">Пн–Пт 9:00–19:00, Сб 10:00–17:00</span>
+              </a>
+
+              <div className="flex flex-wrap justify-center gap-3">
+                <a
+                  href="https://wa.me/7XXXXXXXXXX"
+                  className="flex items-center gap-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-bold px-5 py-3 rounded-xl transition-colors text-sm"
+                >
+                  <span className="text-lg">💬</span> Написать в WhatsApp
+                </a>
+                <a
+                  href="https://t.me/username"
+                  className="flex items-center gap-2 bg-sky-50 hover:bg-sky-100 text-sky-700 font-bold px-5 py-3 rounded-xl transition-colors text-sm"
+                >
+                  <span className="text-lg">📲</span> Написать в Telegram
+                </a>
+              </div>
+
+              <p className="flex items-center gap-2 text-sm text-slate-400 font-medium mt-1">
+                <span>📍</span> Ваш город — выезд по всему городу и области
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

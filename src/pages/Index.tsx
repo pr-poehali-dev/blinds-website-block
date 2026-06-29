@@ -17,9 +17,24 @@ const Index = () => {
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
                 Рулонные жалюзи для дома, офиса и школы
               </h1>
-              <p className="mt-6 text-lg md:text-xl text-slate-600 font-medium">
+              <p className="mt-4 text-lg md:text-xl text-slate-500 font-semibold">
                 Замер бесплатно, монтаж за 1 день
               </p>
+
+              <h2 className="mt-6 text-base md:text-lg text-slate-700 font-medium leading-relaxed space-y-1">
+                <span className="flex items-start gap-2">
+                  <Icon name="Scissors" size={18} className="text-emerald-500 mt-1 flex-shrink-0" />
+                  Изготовим под ваш размер за 3–5 дней.
+                </span>
+                <span className="flex items-start gap-2 mt-2">
+                  <Icon name="PhoneCall" size={18} className="text-emerald-500 mt-1 flex-shrink-0" />
+                  Один звонок — приедем, измерим, установим.
+                </span>
+                <span className="flex items-start gap-2 mt-2">
+                  <Icon name="ShieldCheck" size={18} className="text-emerald-500 mt-1 flex-shrink-0" />
+                  Гарантия 1 год на механизм и ткань.
+                </span>
+              </h2>
 
               <div className="mt-8 flex flex-col sm:flex-row gap-3">
                 <Button

@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				display: ['Pacifico', 'cursive'],
+				display: ['Montserrat', 'sans-serif'],
 				sans: ['Montserrat', 'sans-serif'],
 			},
 			colors: {

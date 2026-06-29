@@ -458,6 +458,24 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Мини-блок доверия */}
+      <div className="bg-[#FDF6EE] border-y border-amber-100 py-6">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12">
+            {[
+              { emoji: '🔒', label: 'Безопасная оплата' },
+              { emoji: '📃', label: 'Договор на все работы' },
+              { emoji: '🚫', label: 'Никакого спама' },
+            ].map((item) => (
+              <div key={item.label} className="flex items-center gap-3">
+                <span className="text-2xl">{item.emoji}</span>
+                <span className="text-sm font-bold text-slate-600">{item.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* БЛОК 6: Финальный CTA */}
       <section className="bg-white py-16 md:py-24">
         <div className="container mx-auto px-4">

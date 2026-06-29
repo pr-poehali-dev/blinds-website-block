@@ -156,6 +156,33 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-white py-16 md:py-20">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-12">
+            Почему клиенты выбирают нас —<br className="hidden md:block" /> и возвращаются снова
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { icon: 'Ruler', emoji: '📐', title: 'Точный замер бесплатно', desc: 'Приедем в удобное время, всё измерим сами. Никаких доплат и сюрпризов.' },
+              { icon: 'Scissors', emoji: '✂️', title: 'Производство под ваш размер', desc: 'Изготавливаем за 3–5 дней. Подгоним жалюзи с точностью до миллиметра.' },
+              { icon: 'Hammer', emoji: '🔧', title: 'Монтаж за 1 день', desc: 'Мастер приедет и установит всё быстро и аккуратно, без пыли и мусора.' },
+              { icon: 'ShieldCheck', emoji: '🛡️', title: 'Гарантия 1 год', desc: 'На механизм и ткань. Если что-то пойдёт не так — устраним за наш счёт.' },
+              { icon: 'Star', emoji: '⭐', title: '4.9 из 5 на отзывах', desc: 'Более 1 240 установок. Клиенты возвращаются к нам снова и рекомендуют друзьям.' },
+              { icon: 'Clock', emoji: '🕐', title: 'Работаем с 2015 года', desc: 'Почти 10 лет опыта. Знаем все нюансы — от детских комнат до школьных актовых залов.' },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="group bg-[#F8F8F8] rounded-2xl p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-200 border border-transparent hover:border-orange-100"
+              >
+                <span className="text-4xl mb-4 block">{item.emoji}</span>
+                <h3 className="text-lg font-extrabold text-slate-900 mb-2">{item.title}</h3>
+                <p className="text-sm text-slate-500 font-medium leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

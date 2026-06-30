@@ -28,6 +28,22 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-[#F8F8F8] font-sans text-slate-900">
+
+      {/* Sticky header */}
+      <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+          <img
+            src="https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/88d8052f-6df8-4551-aed4-475146b4b9b1.png"
+            alt="Маркиза-ДВ"
+            className="h-10 w-auto object-contain"
+          />
+          <a href="tel:+7XXXXXXXXXX" className="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-[#E85D04] transition-colors">
+            <Icon name="Phone" size={16} className="text-[#E85D04]" />
+            +7 (XXX) XXX-XX-XX
+          </a>
+        </div>
+      </header>
+
       <section className="relative overflow-hidden">
         {/* Логотип */}
         <div className="container mx-auto px-4 pt-8 pb-0">

@@ -37,9 +37,9 @@ const Index = () => {
             alt="Маркиза-ДВ"
             className="h-10 w-auto object-contain"
           />
-          <a href="tel:+7XXXXXXXXXX" className="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-[#E85D04] transition-colors">
+          <a href="tel:+79502818877" className="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-[#E85D04] transition-colors">
             <Icon name="Phone" size={16} className="text-[#E85D04]" />
-            +7 (XXX) XXX-XX-XX
+            +7 (950) 281-88-77
           </a>
         </div>
       </header>

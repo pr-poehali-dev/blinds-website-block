@@ -40,16 +40,8 @@ export default function HeroSection() {
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-white">
-        {/* Фоновое фото справа с растушёвкой */}
-        <div className="absolute top-0 right-0 w-full h-full hidden lg:block pointer-events-none">
-          <img
-            src="https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/d9c0d9cd-4349-4004-a837-a8b4deb6121c.jpg"
-            alt=""
-            className="w-full h-full object-cover object-center opacity-75"
-            style={{maskImage: 'linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 10%, black 85%, transparent 100%)', maskComposite: 'intersect', WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 10%, black 85%, transparent 100%)', WebkitMaskComposite: 'source-in'}}
-          />
-        </div>
+      <section className="relative overflow-hidden" style={{backgroundImage: "url('https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/5c45f8b2-10bc-4374-8dcc-84816a125957.jpg')", backgroundSize: 'contain', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat'}}>
+        <div className="absolute inset-0 bg-white/80" />
         {/* Логотип */}
         <div className="relative z-10 container mx-auto px-4 pt-8 pb-0">
           <img

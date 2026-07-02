@@ -40,17 +40,16 @@ export default function HeroSection() {
         </div>
       </header>
 
-      <section className="relative overflow-hidden" style={{backgroundImage: "url('https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/5c45f8b2-10bc-4374-8dcc-84816a125957.jpg')", backgroundSize: 'contain', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat'}}>
-        <div className="absolute inset-0 bg-white/80" />
+      <section className="relative overflow-hidden">
         {/* Логотип */}
-        <div className="relative z-10 container mx-auto px-4 pt-8 pb-0">
+        <div className="container mx-auto px-4 pt-8 pb-0">
           <img
             src="https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/88d8052f-6df8-4551-aed4-475146b4b9b1.png"
             alt="Маркиза-ДВ"
             className="h-16 md:h-20 w-auto object-contain"
           />
         </div>
-        <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
+        <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
 
             <div className="animate-fade-in">

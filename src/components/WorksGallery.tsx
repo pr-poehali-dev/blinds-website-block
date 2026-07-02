@@ -11,6 +11,11 @@ const TABS = [
       { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/24cb23fb-b467-4e41-866c-9800b4ec7f39.jpg', caption: 'Кухня, рулонные + шторы' },
       { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/dc642629-38bb-463c-bbf7-0c560d2e8687.jpg', caption: 'Мансарда, нестандартные окна' },
       { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/f883a716-0f2c-440f-83e7-1893bb8c94a3.jpg', caption: 'Кабинет, день-ночь' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/23e89320-3462-42a3-a4ad-c280d35d1afe.jpg', caption: 'Ванная, день-ночь' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/76603d04-b514-4022-ab29-f60210c14383.jpg', caption: 'Мансарда, день-ночь + шторы' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/9c3a01cb-35f6-4c19-bc73-c3b19eeb30e1.jpg', caption: 'Ванная, день-ночь в деревянном откосе' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/765856e6-d4d7-4c5a-b83a-4eb2071044e7.jpg', caption: 'Детская, день-ночь' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/afeb0a6e-9f97-416a-8a29-0ff20007e10b.jpg', caption: 'Панорамное окно, блэкаут' },
     ],
   },
   {

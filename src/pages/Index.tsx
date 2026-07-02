@@ -72,6 +72,7 @@ const Index = () => {
               </span>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
                 Рулонные жалюзи для дома, офиса и школы
+                <span className="block text-2xl md:text-3xl lg:text-4xl text-orange-500 mt-2">во Владивостоке и Артёме</span>
               </h1>
               <p className="mt-4 text-lg md:text-xl text-slate-500 font-semibold">
                 Замер бесплатно, монтаж за 1 день

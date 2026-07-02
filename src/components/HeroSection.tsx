@@ -12,15 +12,7 @@ const SLIDES = [
     label: 'Офис',
   },
   {
-    src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/5ad4023e-93ea-4c96-b6b0-66fe692b1039.jpg',
-    label: 'Школа',
-  },
-  {
     src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/ee41c672-d200-4e91-9950-b31598fb889b.jpg',
-    label: 'Школа',
-  },
-  {
-    src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/5985d2da-1dac-4dab-8514-530518f30755.jpg',
     label: 'Школа',
   },
 ];

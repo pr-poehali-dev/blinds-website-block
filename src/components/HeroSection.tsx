@@ -33,10 +33,39 @@ export default function HeroSection() {
             alt="Маркиза-ДВ"
             className="h-10 w-auto object-contain"
           />
-          <a href="tel:+79502818877" className="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-[#E85D04] transition-colors">
-            <Icon name="Phone" size={16} className="text-[#E85D04]" />
-            +7 (950) 281-88-77
-          </a>
+          <div className="flex items-center gap-3">
+            <a href="tel:+79502818877" className="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-[#E85D04] transition-colors">
+              <Icon name="Phone" size={16} className="text-[#E85D04]" />
+              <span className="hidden sm:inline">+7 (950) 281-88-77</span>
+            </a>
+            <a
+              href="https://wa.me/79502818877"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors"
+            >
+              <span>💬</span>
+              <span className="hidden sm:inline">WhatsApp</span>
+            </a>
+            <a
+              href="https://t.me/+79502818877"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-sky-500 hover:bg-sky-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors"
+            >
+              <span>✈️</span>
+              <span className="hidden sm:inline">Telegram</span>
+            </a>
+            <a
+              href="https://wa.me/79502818877"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-purple-500 hover:bg-purple-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors"
+            >
+              <span>📱</span>
+              <span className="hidden sm:inline">MAX</span>
+            </a>
+          </div>
         </div>
       </header>
 

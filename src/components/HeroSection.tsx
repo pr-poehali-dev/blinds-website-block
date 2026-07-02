@@ -31,7 +31,7 @@ export default function HeroSection() {
           <img
             src="https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/88d8052f-6df8-4551-aed4-475146b4b9b1.png"
             alt="Маркиза-ДВ"
-            className="h-14 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
           <div className="flex items-center gap-2">
             <a href="tel:+79502818877" className="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-[#E85D04] transition-colors mr-1">

@@ -1,4 +1,3 @@
-import Icon from '@/components/ui/icon';
 
 export default function GalleryReviewsSection() {
   return (
@@ -52,18 +51,15 @@ export default function GalleryReviewsSection() {
         {/* Логотипы клиентов */}
         <div className="border-t border-slate-100 pt-10">
           <p className="text-center text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">Нам доверяют</p>
-          <div className="flex flex-wrap justify-center items-center gap-4">
+          <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-5">
             {[
-              { icon: 'Building2', label: 'Бизнес-центры' },
-              { icon: 'GraduationCap', label: 'Школы и вузы' },
-              { icon: 'Baby', label: 'Детские сады' },
-              { icon: 'HeartPulse', label: 'Медцентры' },
-              { icon: 'Hotel', label: 'Отели' },
-            ].map((c) => (
-              <div key={c.label} className="flex flex-col items-center gap-2 bg-slate-50 rounded-xl px-6 py-4 border border-slate-100 min-w-[110px]">
-                <Icon name={c.icon} size={28} className="text-slate-400" />
-                <span className="text-xs font-semibold text-slate-500">{c.label}</span>
-              </div>
+              'РоссельхозБанк', 'ТАФИ', 'Мечников Плюс', 'ЮНИЛАБ', 'FESCO',
+              'Газпромбанк', 'ОКЕАН', 'SuMotori', 'Морской Траст', 'Иллюzion',
+              'Fabio Pizza', 'Супра', 'Земля Леопарда', 'Vladivostok Grand Hotel & SPA', 'Транзит',
+            ].map((name) => (
+              <span key={name} className="text-sm font-bold text-slate-400 hover:text-slate-600 transition-colors whitespace-nowrap">
+                {name}
+              </span>
             ))}
           </div>
         </div>

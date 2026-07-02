@@ -7,6 +7,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 const SLIDES = [
   {
+    src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/669a5cb9-e3c6-4d64-b792-1fe16f01935a.jpg',
+    label: 'Жалюзи',
+  },
+  {
     src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/2a87fd9c-7b8b-4729-970f-1a9421db7e10.jpg',
     label: 'Квартира',
   },

@@ -40,7 +40,7 @@ export default function HeroSection() {
         </div>
       </header>
 
-      <section className="relative overflow-hidden" style={{backgroundImage: "url('https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/5c45f8b2-10bc-4374-8dcc-84816a125957.jpg')", backgroundSize: 'contain', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat'}}>
+      <section className="relative overflow-hidden" style={{backgroundImage: "url('https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/d9c0d9cd-4349-4004-a837-a8b4deb6121c.jpg')", backgroundSize: 'contain', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat'}}>
         <div className="absolute inset-0 bg-white/80" />
         {/* Логотип */}
         <div className="relative z-10 container mx-auto px-4 pt-8 pb-0">

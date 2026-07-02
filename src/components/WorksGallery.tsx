@@ -6,10 +6,11 @@ const TABS = [
     id: 'apartments',
     label: '🏠 Квартиры',
     photos: [
-      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/fea72ebe-3e3c-443b-aaad-7fd27a83fa15.jpg', caption: 'Спальня, блэкаут — сон без засветки' },
-      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/6f720c80-950e-478e-bd4b-175e83cd94b8.jpg', caption: 'Кухня, влагостойкая ткань' },
-      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/f152a2ce-4abe-49ee-b3c4-78f3535964ba.jpg', caption: 'Детская, день-ночь' },
-      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/d84aca62-1fd7-4160-8802-0cba01e21dc5.jpg', caption: 'Гостиная, панорамное окно' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/c1ac7c65-7718-462d-98ed-c813de39ca7b.jpg', caption: 'Гостиная, рулонные + шторы' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/726e7f0d-8ccc-4b20-8e52-b9b5c563f929.jpg', caption: 'Рулонные на деревянном окне' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/24cb23fb-b467-4e41-866c-9800b4ec7f39.jpg', caption: 'Кухня, рулонные + шторы' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/dc642629-38bb-463c-bbf7-0c560d2e8687.jpg', caption: 'Мансарда, нестандартные окна' },
+      { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/f883a716-0f2c-440f-83e7-1893bb8c94a3.jpg', caption: 'Кабинет, день-ночь' },
     ],
   },
   {

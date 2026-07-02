@@ -5,40 +5,15 @@ export default function GalleryReviewsSection() {
     <section className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
 
-        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-12 text-center">
-          Наши работы: 1 240 объектов по всему городу
-        </h2>
-
-        {/* Галерея 2×3 */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-16">
-          {[
-            { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/fc1287ab-ef4c-4539-bea7-6cb2f8774ac1.jpg', label: 'Спальня — блэкаут, полное затемнение' },
-            { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/b8f188aa-a0bf-4248-8b9d-bc08e9070063.jpg', label: 'Офис open space, 24 окна — серые, цепной механизм' },
-            { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/5c35de6f-f2d7-4274-a9e3-e8783a321917.jpg', label: 'Детский сад — белые, безопасный механизм' },
-            { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/87521666-29da-491e-8648-85106f4cb13a.jpg', label: 'Кухня — влагостойкая ткань' },
-            { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/0ac6aa51-0083-4bc2-9aec-661b6f743400.jpg', label: 'Школьный класс — затемнение под проектор' },
-            { src: 'https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/files/df1a9252-38d4-4298-9c28-241e370ce644.jpg', label: 'Переговорная — рулонные день-ночь' },
-          ].map((photo) => (
-            <div key={photo.src} className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-sm hover:shadow-xl transition-all duration-300">
-              <img
-                src={photo.src}
-                alt={photo.label}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <p className="absolute bottom-0 left-0 right-0 px-3 py-3 text-white text-xs font-semibold translate-y-full group-hover:translate-y-0 transition-transform duration-300 leading-tight">
-                📸 {photo.label}
-              </p>
-            </div>
-          ))}
-        </div>
-
         {/* Отзывы */}
+        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-12 text-center">
+          Что говорят наши клиенты
+        </h2>
         <div className="grid md:grid-cols-3 gap-6 mb-14">
           {[
             {
               name: 'Анна В.',
-              city: 'г. Москва',
+              city: 'г. Владивосток',
               text: '«Заказала рулонные жалюзи в спальню и детскую. Менеджер помог выбрать ткань по образцам прямо у нас дома. Сделали за 4 дня, установили быстро и аккуратно. Ребёнок наконец-то спит в темноте!»',
               initials: 'АВ',
               color: 'bg-rose-100 text-rose-600',

@@ -4,6 +4,7 @@ import Icon from '@/components/ui/icon';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Input } from '@/components/ui/input';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import WorksGallery from '@/components/WorksGallery';
 
 const SLIDES = [
   {
@@ -195,6 +196,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <WorksGallery />
 
       <section className="bg-[#F5F7FA] py-16 md:py-20">
         <div className="container mx-auto px-4">

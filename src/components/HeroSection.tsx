@@ -40,8 +40,16 @@ export default function HeroSection() {
         </div>
       </header>
 
-      <section className="relative overflow-hidden" style={{backgroundImage: "url('https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/d9c0d9cd-4349-4004-a837-a8b4deb6121c.jpg')", backgroundSize: 'contain', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat'}}>
-        <div className="absolute inset-0 bg-white/80" />
+      <section className="relative overflow-hidden bg-white">
+        {/* Фоновое фото справа с растушёвкой */}
+        <div className="absolute top-0 right-0 w-1/2 h-full hidden lg:block pointer-events-none">
+          <img
+            src="https://cdn.poehali.dev/projects/8e5f4e63-d5a8-44bd-8e66-f6bc1aafe607/bucket/d9c0d9cd-4349-4004-a837-a8b4deb6121c.jpg"
+            alt=""
+            className="w-full h-full object-cover object-center opacity-30"
+            style={{maskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 25%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%), linear-gradient(to bottom, transparent 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 85%, transparent 100%)', maskComposite: 'intersect', WebkitMaskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 25%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%), linear-gradient(to bottom, transparent 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 85%, transparent 100%)', WebkitMaskComposite: 'source-in'}}
+          />
+        </div>
         {/* Логотип */}
         <div className="relative z-10 container mx-auto px-4 pt-8 pb-0">
           <img

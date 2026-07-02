@@ -34,9 +34,8 @@ export default function CtaSection() {
               </div>
               <ul className="flex flex-col gap-3">
                 {[
-                  'Бесплатный замер (обычно 500 ₽)',
                   'Бесплатная доставка',
-                  'Монтаж в подарок (обычно от 1 500 ₽/окно)',
+                  'Монтаж 1 позиции в подарок (обычно от 600 ₽/окно)',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="w-5 h-5 rounded-full bg-emerald-500 flex items-center justify-center flex-shrink-0 mt-0.5">
